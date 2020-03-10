@@ -51,6 +51,31 @@ public class Variables {
      //   byte b2 = i1;  larger one cannot be asisgned to smaller one
 
 
+        System.out.println( 3.5 );
+        double d1 = 3.5;
+
+        // float f1  = 4.5;  // double primitve is larger than float primitive, cannot assigned
+
+        float f2 = 5.5f;
+        System.out.println(f2);
+
+
+        System.out.println("====================================================");
+
+        float pi = 3.14f;
+
+        double p = 3.14f;
+
+        int a1 = 3000;
+
+        double d2 = a1;  // 3000.0
+        System.out.println(d2);
+
+        long l2 = 40;
+        float f3 = l2;
+
+
+
     }
 
 }
