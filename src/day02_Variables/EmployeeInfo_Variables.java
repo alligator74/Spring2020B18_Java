@@ -21,15 +21,29 @@ public class EmployeeInfo_Variables {
         double salary = 120000.5;
         int ssn = 123456789;
 
-        /*
+
         System.out.println("Employee Name: "+employeeName);
         System.out.println("Company Name: "+companyName );
         System.out.println("Employee Id: "+employeeId);
         System.out.println("Job Title: "+jobTitle);
         System.out.println("Salary: "+salary);
         System.out.println("Social Security number: "+ssn);
+
+        /*
+        System.out.println("Employee Name: " + employeeName + "\nCompany Name: " +
+                companyName + "\nEmployee ID: " + employeeId + "\nJob Title: "
+                + jobTitle + "\nSalary: " + salary + "\nSSN: " + ssn);
     */
-        System.out.println("Employee Name: " + employeeName + "\nCompany Name: " + companyName + "\nEmployee ID: " + employeeId + "\nJob Title: " + jobTitle + "\nSalary: " + salary + "\nSSN: " + ssn);
+
+        System.out.println("=========================================");
+        String firstName = "Hunar";
+        String lastName = "Muhammad";
+
+        // Full Name: Zeynep Dere
+        System.out.println("Full Name: "+firstName+" "+lastName);
+
+
+        int num =1000;
 
 
 
