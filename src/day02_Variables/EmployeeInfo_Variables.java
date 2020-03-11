@@ -43,8 +43,8 @@ public class EmployeeInfo_Variables {
         System.out.println("Full Name: "+firstName+" "+lastName);
 
 
-        int num =1000;
-
+        System.out.println(11 + 10); //21, addition
+        System.out.println("11"+"10"); // 1110, concatenation
 
 
     }
