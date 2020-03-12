@@ -18,11 +18,11 @@ public class SalaryCalculator {
     public static void main(String[] args) {
         // DataType  varaibleName = Data ;
 
-       double hourlyRate = 45.50;
+       double hourlyRate = 65;
        double stateTaxRate = 0.04;
        double federalTaxRate = 0.22;
-       byte weeklyHours = 40;
-       byte totalWeeks = 52;
+       byte weeklyHours = 45;
+       byte totalWeeks = 48;
 
        // salary = hourlyRate * weeklyHours * 52
         double salary = hourlyRate * weeklyHours * totalWeeks ;
