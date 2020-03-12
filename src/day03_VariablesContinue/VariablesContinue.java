@@ -54,6 +54,12 @@ public class VariablesContinue {
         System.out.println(num1);
 
         char a1 = 'z';
+       // byte b1 = a1;  // char is larger than byte
+        byte b1 = 'z';
+
+        // short s1 = a1 ;  // char is larger than short
+        int i1 = a1;  // int is larger than char
+
 
 
 
