@@ -76,6 +76,15 @@ public class Variable_Practice {
 
         boolean r1 = !true; // false
 
+        System.out.println( r1 ); // false
+        System.out.println( !r1 ); // true
+
+        System.out.println( !true == false); // true
+
+        System.out.println( !true != !false); // true
+
+
+
 
 
 
