@@ -39,6 +39,36 @@ public class PrimitiveCastings {
         System.out.println(L1);  // 10
 
 
+        float F1 = 60.5f;
+        int I1 = (int) F1;  // prefered
+        System.out.println(I1);
+
+
+        long  largeNum = 99999999999L;
+
+        int intNum = (int) largeNum;
+        System.out.println(intNum);
+            // it gives a different num because 99999999999 is out of int' range
+
+        char ch1 = 'a';
+
+        short sh1 = (short)ch1;
+        System.out.println(sh1);
+
+
+        char ch2 = 23456;
+
+        double dbl1  = ch2; // 23456.0
+
+        System.out.println(dbl1);
+
+
+        int z1 = 10;
+
+        double t1b = z1;   // 10.0
+
+        short y1 = (short) z1;
+
 
 
     }
