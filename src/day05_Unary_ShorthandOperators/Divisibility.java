@@ -23,6 +23,10 @@ public class Divisibility {
 
         String result3 = number +" is divisible by 5: "+divisibleBy5;
 
+        String finalResult = result1 + "\n"+result2 + "\n" +result3;
+
+        System.out.println(finalResult);
+
         /*
         System.out.println(result1);
         System.out.println(result2);
@@ -32,9 +36,9 @@ public class Divisibility {
       //  System.out.println(result1 + "\n"+result2 + "\n" +result3 );
                      //  concatenation ==> returns string
 
-        String finalResult = result1 + "\n"+result2 + "\n" +result3;
 
-        System.out.println(finalResult);
+
+
 
     }
 
