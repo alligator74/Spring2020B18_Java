@@ -79,6 +79,24 @@ public class ShorthandOperators {
         System.out.println(num2);
 
 
+        int num3 = 300;
+            num3  %= 10 + 20;  // num3 %=  30
+                            // num3  = num % 30
+                            // num3 = 300 % 30  ==> 0
+
+        System.out.println(num3);
+
+
+        int n1 = 400;
+            n1 %= 3*5 ;  //  n1 %=  15
+                        // n1 = n1%15
+                         // n1 = 400 % 15
+
+        // 400 / 15 = 26.66666
+        // remainder: 400 - ( 15 * 26) = 10
+
+        System.out.println(n1);
+
 
     }
 
