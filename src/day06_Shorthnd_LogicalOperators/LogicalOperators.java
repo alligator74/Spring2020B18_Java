@@ -28,6 +28,27 @@ public class LogicalOperators {
 
         System.out.println(R3);
 
+
+        boolean R4 = true != false || false == !true ;
+                //      true   ||  true  ==> true
+
+        System.out.println(R4);
+
+        boolean R5 = true != false && !false == !true;
+                 //     true  &&   false  ==> false
+        System.out.println(R5);
+
+        boolean R6 = !!!false;
+                    // !!true
+                    // !false
+                    // true
+
+        System.out.println(R6);
+
+
+
+
+
     }
 
 }
