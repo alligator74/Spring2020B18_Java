@@ -71,6 +71,13 @@ public class ShortHandOperators_Practice {
         System.out.println(y);
 
 
+        int  t = 400;
+            t %= 10*2;
+            // t %= 20 ==> t = t % 20; ==> t = 0
+
+        System.out.println(t);
+
+
 
 
 
