@@ -15,13 +15,13 @@ public class SingleIf_Practice2 {
         }
 
 
-        boolean feeling = false;
+        boolean feelingHappy = false;
 
-        if(feeling == false){
+        if(feelingHappy == false){
             System.out.println("don't be sad");
         }
 
-        if(feeling == true){
+        if(feelingHappy == true){
             System.out.println("Stay happy");
         }
 
