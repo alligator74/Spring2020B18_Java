@@ -39,6 +39,7 @@ public class ShortHandOperators_Practice {
             System.out.println(x);
 
 
+
         //  /=: division assignment:
 
             int n = 900;
@@ -54,9 +55,20 @@ public class ShortHandOperators_Practice {
         System.out.println(n);
 
 
+     // %=: remainder assignment
+            // remainder: numerator - (denominator * Whole Number for result)
 
+        int m = 10;
+         //   m = m % 3; //1
 
+        m %= 3; // m=1
+        System.out.println(m);
 
+        int y = 300;
+
+        y %= 3*5;
+        // y %= 15; ==> y = y%15 ==> y=0
+        System.out.println(y);
 
 
 
