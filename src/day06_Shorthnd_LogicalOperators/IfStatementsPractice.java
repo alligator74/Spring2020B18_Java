@@ -51,6 +51,10 @@ public class IfStatementsPractice {
         }
 
 
+        // 10,000,000
+        int U = 10_000_000; // to increase the readability, similar function with comma in accounting
+
+
     }
 
 }
