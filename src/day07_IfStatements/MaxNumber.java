@@ -19,6 +19,7 @@ public class MaxNumber {
 
         boolean cGreater = c > a && c > b;  //if c is greater than both a nd b, then c is maximum
 
+
         if(aGreater) {
             System.out.println(a + " is greater number");
         }
